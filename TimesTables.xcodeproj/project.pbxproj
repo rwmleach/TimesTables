@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B6563B62368A92E00ED3B28 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6563B52368A92E00ED3B28 /* ResultView.swift */; };
+		3B6563B82368A96800ED3B28 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6563B72368A96800ED3B28 /* GameView.swift */; };
+		3B6563BA2368A9CB00ED3B28 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6563B92368A9CB00ED3B28 /* SettingsView.swift */; };
+		3B6563BC2368DAC000ED3B28 /* KeyboardGuardian.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6563BB2368DAC000ED3B28 /* KeyboardGuardian.swift */; };
 		3B7C578523672ABE00C23884 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7C578423672ABE00C23884 /* AppDelegate.swift */; };
 		3B7C578723672ABE00C23884 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7C578623672ABE00C23884 /* SceneDelegate.swift */; };
 		3B7C578923672ABE00C23884 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7C578823672ABE00C23884 /* ContentView.swift */; };
 		3B7C578B23672AC100C23884 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B7C578A23672AC100C23884 /* Assets.xcassets */; };
 		3B7C578E23672AC100C23884 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B7C578D23672AC100C23884 /* Preview Assets.xcassets */; };
 		3B7C579123672AC100C23884 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B7C578F23672AC100C23884 /* LaunchScreen.storyboard */; };
+		3B7CAB142367D3C100450F24 /* GameProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CAB132367D3C100450F24 /* GameProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B6563B52368A92E00ED3B28 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		3B6563B72368A96800ED3B28 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		3B6563B92368A9CB00ED3B28 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		3B6563BB2368DAC000ED3B28 /* KeyboardGuardian.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardGuardian.swift; sourceTree = "<group>"; };
 		3B7C578123672ABE00C23884 /* TimesTables.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimesTables.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B7C578423672ABE00C23884 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B7C578623672ABE00C23884 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +33,7 @@
 		3B7C578D23672AC100C23884 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3B7C579023672AC100C23884 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B7C579223672AC100C23884 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B7CAB132367D3C100450F24 /* GameProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameProperties.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +68,12 @@
 			children = (
 				3B7C578423672ABE00C23884 /* AppDelegate.swift */,
 				3B7C578623672ABE00C23884 /* SceneDelegate.swift */,
+				3B7CAB132367D3C100450F24 /* GameProperties.swift */,
 				3B7C578823672ABE00C23884 /* ContentView.swift */,
+				3B6563B92368A9CB00ED3B28 /* SettingsView.swift */,
+				3B6563B72368A96800ED3B28 /* GameView.swift */,
+				3B6563BB2368DAC000ED3B28 /* KeyboardGuardian.swift */,
+				3B6563B52368A92E00ED3B28 /* ResultView.swift */,
 				3B7C578A23672AC100C23884 /* Assets.xcassets */,
 				3B7C578F23672AC100C23884 /* LaunchScreen.storyboard */,
 				3B7C579223672AC100C23884 /* Info.plist */,
@@ -146,8 +161,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B6563BA2368A9CB00ED3B28 /* SettingsView.swift in Sources */,
 				3B7C578523672ABE00C23884 /* AppDelegate.swift in Sources */,
 				3B7C578723672ABE00C23884 /* SceneDelegate.swift in Sources */,
+				3B6563B62368A92E00ED3B28 /* ResultView.swift in Sources */,
+				3B7CAB142367D3C100450F24 /* GameProperties.swift in Sources */,
+				3B6563BC2368DAC000ED3B28 /* KeyboardGuardian.swift in Sources */,
+				3B6563B82368A96800ED3B28 /* GameView.swift in Sources */,
 				3B7C578923672ABE00C23884 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
